@@ -1,0 +1,23 @@
+select * from Person;
+insert into Person([first-name], [last-name], [national-id], age) values ('ali', 'dehnegr', 11111, 20), ('akbar', 'akbari', 11112, 21), ('ahmad', 'ahmadi', 11113, 20), ('reza', 'rezaei', 11114, 22);
+insert into Student([Person-id], [Student-Number]) values (3, 147147), (4, 159753);
+select * from Student;
+select Person.id, Person.[first-name], Person.[last-name], Student.[Student-Number] from Student join Person on Student.[Person-id] = Person.id;
+select Person.id, Person.[first-name], Person.[last-name], Student.[Student-Number] from Student full join Person on Student.[Person-id] = Person.id;
+select COUNT(*) from person;
+update person set [national-id]=null where id=1;
+select * from Person;
+select COUNT([national-id]) from person where age>20;
+--creat the payment table
+select * from Payment;
+insert into Payment ([Student-id], [amount], [Payment-Date]) values (1, 1000, '2018-10-25'), (1, 500, '2018-10-26'), (1, 1300, '2018-11-26'), (2, 2000, '2017-05-26');
+update Payment set [Student-id]=2 where id=3;
+update Payment set [Student-id]=2 where id=6;
+select SUM(amount) from Payment;
+--select SUM(amount) from Payment where [Student-id]=2;
+select avg(amount) from Payment;
+select min(amount) from Payment;
+select max(amount) from Payment;
+select Person.[last-name], SUM(amount) from Student join Payment on Payment.Student_id=Student.id join Person on Student.[Person-id]=Person.id group by Person.[last-name];
+select * from feed;
+select x.* from (select Person.[first-name], Person.[last-name], Student.[Student-Number] from Student join Person on Student.[Person-id]=Person.id) x;
