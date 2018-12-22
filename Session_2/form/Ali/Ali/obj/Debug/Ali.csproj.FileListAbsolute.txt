@@ -1,0 +1,11 @@
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\bin\Debug\Ali.exe.config
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\bin\Debug\Ali.exe
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\bin\Debug\Ali.pdb
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\bin\Debug\EntityFramework.dll
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\bin\Debug\EntityFramework.xml
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\obj\Debug\Ali.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\obj\Debug\Ali.Form1.resources
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\obj\Debug\Ali.Properties.Resources.resources
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\obj\Debug\Ali.csproj.GenerateResource.Cache
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\obj\Debug\Ali.exe
+C:\Users\Ali\Desktop\تمرین2\form\Ali\Ali\obj\Debug\Ali.pdb
